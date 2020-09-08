@@ -1,3 +1,5 @@
 import nav from "./nav";
 import {top,bottom} from "./footer";
-console.log(nav(),top,bottom);
+import makeButton from "./button";
+import {makeColorStyle} from "./button-styles";
+console.log(nav(),top,bottom,makeButton("myButton"),makeColorStyle("cyan"));

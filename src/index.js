@@ -1,2 +1,3 @@
 import nav from "./nav";
-console.log(nav());
+import {top,bottom} from "./footer";
+console.log(nav(),top,bottom);

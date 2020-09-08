@@ -1,5 +1,5 @@
 // takes button label and returns a button 
 
-module.exports=(name)=>{
+export default (name)=>{
   return `Button ${name}`
 }

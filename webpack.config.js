@@ -12,7 +12,14 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
         rules: [
           {
             test: /\.jp?g/,
-            use: ["url-loader"],
+            use: [
+              {
+                loader: "url-loader",
+                options: {
+                  limit: 5000,
+                },
+              },
+            ],
           },
         ],
       },

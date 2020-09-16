@@ -6,6 +6,7 @@ import "./footer.css";
 import "./button.css";
 import imageUrl from "./webpack-logo.jpg";
 import makeImage from "./image";
+import Foo from "./foo.ts";
 
 // console.log(imageUrl); converts to base65
 
